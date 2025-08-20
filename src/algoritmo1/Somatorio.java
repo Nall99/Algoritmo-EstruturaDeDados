@@ -1,12 +1,12 @@
 package algoritmo1;
 
 public class Somatorio {
-    public int soma(int n){
+    public int calculo(int n){
         if(n == 1){
             return 1;
         }
         else {
-            return n + soma(n - 1);
+            return n + calculo(n - 1);
         }
     }
 }
