@@ -1,12 +1,12 @@
 package algoritmo1;
 
 public class Fatorial {
-    public int fatorial(int n){
+    public int calculo(int n){
         if(n == 1){
             return 1;
         }
         else{
-            return n * fatorial(n-1);
+            return n * calculo(n-1);
         }
     }
 }
