@@ -1,8 +1,9 @@
 import algoritmo1.Fatorial;
+import algoritmo1.Somatorio;
 
 public class Main {
     public static void main(String[] args) {
-        Fatorial fac = new Fatorial();
-        System.out.println(fac.fatorial(3));
+        Somatorio somatorio = new Somatorio();
+        System.out.println(somatorio.soma(4));
     }
 }
